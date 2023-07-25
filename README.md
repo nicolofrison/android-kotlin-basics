@@ -54,3 +54,8 @@ Simple app projects used to learn android development with Kotlin. For each app 
 -   `Null`  means "no value."
 -   Not all code can handle  `null`  values, so be careful using it.
 -   Use  **Analyze > Inspect Code**  for suggestions to improve your code.
+
+### Color theming
+-   Use the  [Material palette generator](https://m2.material.io/inline-tools/color/)  to help select a color palette.
+-   Declare color resources in the  `colors.xml`  file to make it easier to reuse them.
+-   Dark theme can reduce power usage and make your app easier to read in low light.
