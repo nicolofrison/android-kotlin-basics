@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
 
         var tip = serviceCost * tipValue
 
-        val roundUp = binding.switchRoundUp.isSelected
+        val roundUp = binding.switchRoundUp.isChecked
         if (roundUp) {
             tip = kotlin.math.ceil(tip)
         }
