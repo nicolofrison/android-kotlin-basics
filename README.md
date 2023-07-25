@@ -54,3 +54,26 @@ Simple app projects used to learn android development with Kotlin. For each app 
 -   `Null`  means "no value."
 -   Not all code can handle  `null`  values, so be careful using it.
 -   Use  **Analyze > Inspect Code**  for suggestions to improve your code.
+
+### Color theming
+-   Use the  [Material palette generator](https://m2.material.io/inline-tools/color/)  to help select a color palette.
+-   Declare color resources in the  `colors.xml`  file to make it easier to reuse them.
+-   Dark theme can reduce power usage and make your app easier to read in low light.
+-   Place app icon files in the  `mipmap`  resource directories.
+-   Provide different versions of an app icon bitmap image in each density bucket (`mdpi`,  `hdpi`,  `xhdpi`,  `xxhdpi`,  `xxxhdpi`) for backwards compatibility with older versions of Android.
+-   Add resource qualifiers onto resource directories to specify resources that should be used on devices with a certain configuration (e.g.  `v26`).
+-   Vector drawables are Android's implementation of vector graphics. They are defined in XML as a set of points, lines, and curves along with associated color information. Vector drawables can be scaled for any density without loss of quality.
+-   Adaptive icons were introduced to the Android platform in API 26. They are made up of a foreground and background layer that follow specific requirements, so that your app icon looks high-quality on a range of devices with different OEM masks.
+-   Use Image Asset Studio in Android Studio to create legacy and adaptive icons for your app.
+
+### Apply Material UI
+-   Use Material Design Components where possible to adhere to Material Design guidelines and allow for more customization.
+-   Add icons to give users visual cues about how parts of your app will function.
+-   Use  `ConstraintLayout`  to position elements in your layout.
+-   Test your app for edges cases (e.g. rotating your app in landscape mode) and make improvements where applicable.
+-   Reformat your code and clean up your code to make it as concise as possible.
+
+### Instrumental testing
+-   Android Studio generates the necessary test classes when the project is created. However, if you encounter a project that doesn't have them, you can create them manually.
+-   Test rules run before every test in a test class.
+-   Espresso is a fundamental component of instrumentation tests. It enables interaction with UI components using code.
