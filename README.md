@@ -65,3 +65,9 @@ Simple app projects used to learn android development with Kotlin. For each app 
 -   Vector drawables are Android's implementation of vector graphics. They are defined in XML as a set of points, lines, and curves along with associated color information. Vector drawables can be scaled for any density without loss of quality.
 -   Adaptive icons were introduced to the Android platform in API 26. They are made up of a foreground and background layer that follow specific requirements, so that your app icon looks high-quality on a range of devices with different OEM masks.
 -   Use Image Asset Studio in Android Studio to create legacy and adaptive icons for your app.
+
+-   Use Material Design Components where possible to adhere to Material Design guidelines and allow for more customization.
+-   Add icons to give users visual cues about how parts of your app will function.
+-   Use  `ConstraintLayout`  to position elements in your layout.
+-   Test your app for edges cases (e.g. rotating your app in landscape mode) and make improvements where applicable.
+-   Reformat your code and clean up your code to make it as concise as possible.
