@@ -97,3 +97,8 @@ To implement the adapter:
 -   Use the  **Material Components for Android library**  to have your app more easily follow the recommended Material Design guidelines.
 -   Use  `MaterialCardView`  to display content in a Material card.
 -   Small visual tweaks to your app in terms of color and spacing can make the app look more polished and consistent.
+
+### Tests
+-   Learned how to add testing-specific dependencies.
+-   Learned how to interact with a  `RecyclerView`  with instrumentation tests.
+-   Discussed some fundamental best practices for testing.
