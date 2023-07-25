@@ -51,7 +51,6 @@
         android:layout_height="wrap_content"
         app:layout_constraintStart_toStartOf="@id/edit_text_service_cost_layout"
         app:layout_constraintTop_toBottomOf="@id/edit_text_service_cost_layout"
-        style="@style/Widget.TipTime.TextView"
         android:text="@string/text_service_question_text" />
 
     <RadioGroup
@@ -67,22 +66,19 @@
             android:id="@+id/radio_button_first_option"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/radio_button_first_option_text"
-            style="@style/Widget.TipTime.CompoundButton.RadioButton" />
+            android:text="@string/radio_button_first_option_text" />
 
         <RadioButton
             android:id="@+id/radio_button_second_option"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/radio_button_second_option_text"
-            style="@style/Widget.TipTime.CompoundButton.RadioButton" />
+            android:text="@string/radio_button_second_option_text" />
 
         <RadioButton
             android:id="@+id/radio_button_third_option"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/radio_button_third_good_text"
-            style="@style/Widget.TipTime.CompoundButton.RadioButton" />
+            android:text="@string/radio_button_third_good_text" />
 
     </RadioGroup>
 
@@ -104,8 +100,7 @@
         android:text="@string/switch_round_up_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/edit_text_service_cost_layout"
-        app:layout_constraintTop_toBottomOf="@id/radio_group_tip"
-        style="@style/Widget.TipTime.CompoundButton.Switch" />
+        app:layout_constraintTop_toBottomOf="@id/radio_group_tip" />
 
     <Button
         android:id="@+id/button_calculate"
