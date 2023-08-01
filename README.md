@@ -146,3 +146,19 @@ To perform an intent:
 -   When a configuration change occurs, Android invokes all the activity lifecycle's shutdown callbacks. Then Android restarts the activity from scratch, running all the lifecycle startup callbacks.
 -   When Android shuts down an app because of a configuration change, it restarts the activity with the state bundle that is available to  `onCreate()`.
 -   As with process shutdown, save your app's state to the bundle in  `onSaveInstanceState()`.
+
+##### **Navigation**
+-   Fragments are reusable pieces of UI that can be embedded in activities.
+-   The lifecycle of a fragment differs from the lifecycle of an activity, with view setup occurring in  `onViewCreated()`, rather than  `onCreateView()`.
+-   A  `FragmentContainerView`  is used to embed fragments in other activities and can manage navigation between fragments.
+
+Use the Navigation Component
+
+-   Setting the  `navGraph`  attribute of a  `FragmentContainerView`  allows you to navigate between fragments within an activity.
+-   The  `NavGraph`  editor allows you to add navigation actions and specify arguments between different destinations.
+-   While navigating using intents requires you to pass in extras, the Navigation component uses SafeArgs to auto-generate classes and methods for your navigation actions, ensuring type safety with arguments.
+
+Use cases for fragments
+
+-   Using the Navigation component, many apps can manage their entire layout within a single activity, with all navigation occurring between fragments.
+-   Fragments make common layout patterns possible, such as master-detail layouts on tablets, or multiple tabs within the same activity.
