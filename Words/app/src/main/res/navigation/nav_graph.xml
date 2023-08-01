@@ -17,8 +17,8 @@
     <fragment
         android:id="@+id/wordListFragment"
         android:name="com.example.words.WordListFragment"
-        android:label="fragment_word_list"
-        tools:layout="@layout/fragment_word_list" >
+        android:label="@string/word_list_fragment_label"
+        tools:layout="@layout/fragment_word_list">
         <argument
             android:name="letter"
             app:argType="string" />
